@@ -1,0 +1,15 @@
+C:\Users\IP2030\source\repos\TretZachet\bin\Debug\TretZachet.exe.config
+C:\Users\IP2030\source\repos\TretZachet\bin\Debug\TretZachet.exe
+C:\Users\IP2030\source\repos\TretZachet\bin\Debug\TretZachet.pdb
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet.csproj.AssemblyReference.cache
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\MainWindow.g.cs
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\App.g.cs
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet_MarkupCompile.cache
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet_MarkupCompile.lref
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\MainWindow.baml
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet.g.resources
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet.Properties.Resources.resources
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet.csproj.GenerateResource.cache
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet.csproj.CoreCompileInputs.cache
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet.exe
+C:\Users\IP2030\source\repos\TretZachet\obj\Debug\TretZachet.pdb

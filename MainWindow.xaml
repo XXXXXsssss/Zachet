@@ -1,0 +1,52 @@
+﻿<Window x:Class="TretZachet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TretZachet"
+        mc:Ignorable="d"
+        Title="Marathon Skills 2016 - Register for an event" Height="631.704" Width="809.937">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="533*"/>
+            <RowDefinition Height="38*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF525252">
+            <Button Content="Назад" HorizontalAlignment="Left" Margin="27,19,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Logcut" HorizontalAlignment="Left" Margin="690,19,0,0" VerticalAlignment="Top" Width="85"/>
+            <Label Content="MARATHON SKILLS 2016" Margin="138,4,230,10" FontWeight="Bold" Foreground="White" FontSize="28"></Label>
+        </Grid>
+        <Label Content="Регистрация на марафон" HorizontalAlignment="Left" Margin="292,5,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24" Height="42" Width="286"/>
+        <TextBlock  TextWrapping="Wrap" Text="Пожалуйста заполните всю информацию, чтобы зарегистрироваться на Skills Marathon 2016 проводим в Москве. Russia. С вами свяжутся после регистрации для уточнения оплаты и другой информации." Margin="50,52,38,377" Grid.Row="1" FontSize="18"></TextBlock>
+        <Label Content="Вид марафона" HorizontalAlignment="Left" Margin="94,136,0,0" Grid.Row="1" VerticalAlignment="Top" Width="162" FontWeight="Bold" FontSize="20" Height="37"/>
+        <Label Content="Варианты комплексов" HorizontalAlignment="Left" Margin="517,136,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" Height="37" Width="230"/>
+        <CheckBox Content="42km Полный марафон($145)" HorizontalAlignment="Left" Margin="50,193,0,0" Grid.Row="1" VerticalAlignment="Top" Width="275" FontSize="18" Height="23"/>
+        <CheckBox Content="21km Полумарафон($75)" HorizontalAlignment="Left" Margin="50,213,0,0" Grid.Row="1" VerticalAlignment="Top" Width="275" FontSize="18" Height="23"/>
+        <CheckBox Content="5km Малая дистанция($20)" HorizontalAlignment="Left" Margin="50,233,0,0" Grid.Row="1" VerticalAlignment="Top" Width="275" FontSize="18" Height="23"/>
+        <Button Content="Регистрация" HorizontalAlignment="Left" Margin="50,461,0,0" Grid.Row="1" VerticalAlignment="Top" Width="101" Height="20" FontSize="15"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="210,461,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Height="20" FontSize="15"/>
+        <Label Content="$185" HorizontalAlignment="Left" Margin="517,367,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="80" Height="116" Width="183"/>
+        <Label Content="Регистрационный взнос" HorizontalAlignment="Left" Margin="486,356,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.803,-0.594" FontSize="20" FontWeight="Bold" Height="37" Width="247"/>
+        <Grid Grid.Row="2" Background="#FF525252">
+            <Label Content="18 дней 8 часов и 17 минут до старта марафона!" Margin="221,0,195,0" Foreground="White" FontSize="16"/>
+        </Grid>
+        <Label Content="Детали спонсорства" HorizontalAlignment="Left" Margin="78,302,0,0" Grid.Row="1" VerticalAlignment="Top" Width="227" FontWeight="Bold" FontSize="20" Height="37"/>
+        <Label Content="Взнос:" HorizontalAlignment="Left" Margin="78,349,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="18" Height="34" Width="61"/>
+        <Label Content="Сумма взноса:" HorizontalAlignment="Left" Margin="50,383,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.233,-0.223" FontSize="18" Height="34" Width="129"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="185,393,0,0" Grid.Row="1" TextWrapping="Wrap" Text="$500" VerticalAlignment="Top" Width="140" FontStyle="Italic"/>
+        <ComboBox SelectedIndex="0" HorizontalAlignment="Left" Margin="185,356,0,0" Grid.Row="1" VerticalAlignment="Top" Width="140" Height="22">
+            <ComboBoxItem>Фонд кошек</ComboBoxItem>
+        </ComboBox>
+        <RadioButton Content="Вариант А($0):" HorizontalAlignment="Left" Margin="486,193,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="23" Width="148"/>
+        <RadioButton Content="Вариант B($20):" HorizontalAlignment="Left" Margin="486,243,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="23" Width="157"/>
+        <RadioButton Content="Вариант C($45):" HorizontalAlignment="Left" Margin="486,288,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="23" Width="157"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="643,192,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Номер бегуна+ " VerticalAlignment="Top" FontSize="18" Width="131" Height="24"/>
+        <Label Content="RFID браслет" Margin="504,209,177,252" Grid.Row="1" FontSize="18"></Label>
+        <TextBlock  HorizontalAlignment="Left" Margin="655,241,0,0" Grid.Row="1" TextWrapping="Wrap" Text="вариант А + " VerticalAlignment="Top" FontSize="18" Width="131" RenderTransformOrigin="0.268,0.63" Height="24"/>
+        <Label Content="бейсболка + бутылка воды." Margin="504,257,38,186" Grid.Row="1" FontSize="18"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="655,286,0,0" Grid.Row="1" TextWrapping="Wrap" Text="вариант В " VerticalAlignment="Top" FontSize="18" Width="131" RenderTransformOrigin="0.268,0.63" Height="24"/>
+        <Label Content=" +футболка + сувенирный буклет." Margin="495,304,15,157" Grid.Row="1" FontSize="18"/>
+        <Image Visibility="Visible" HorizontalAlignment="Left" Height="22" Margin="338,354,0,0" Grid.Row="1" VerticalAlignment="Top" Width="23" Source="Resources/circle-exclamation-mark_icon-icons.com_58734.png"/>
+    </Grid>
+</Window>
